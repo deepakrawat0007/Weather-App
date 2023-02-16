@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.wrapper{
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.7);
+    padding: 20px;
+    width: 70vw;
+    height: auto;
+    color: antiquewhite;
+
+}
+.wrapper .Search{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.wrapper input{
+    width: 50vw;
+    height: 35px;
+
+    border: 3px solid gray;
+    font-size: large;
+    text-align: center;
+}
+.wrapper .Search button{
+    height: 37px;
+    
+    position: absolute;
+    right: 14%;
+    top: 7%;
+    border: 2px solid gray;
+}
+.cards{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.top-head button{
+    cursor: pointer;
+    color: palevioletred;
+}
+.top-head button:hover{
+    color: crimson;
+   
+}
+.cards >h1{
+    background-color: rgba(0,0,0,0.9);
+    width: 60vw;
+}
+.cards div{
+    width: 60vw;
+}
+.cards .top-head , .temp , .temp2 {
+   margin-top: 4em;
+   background-color:rgba(0,0,0,0.6);
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.temp ,.temp2{
+    margin-top: 1em;
+}
+.spinner{
+    margin-left: 40%;
+    background-color:rgba(0,0,0,0.3);
+}
+.temp2{
+    display: flex;
+    justify-content: center;
+    
+}
+.temp2 button{
+    margin-left: auto;
+    cursor: pointer;
+    color: gray;
+    
+}
+.temp2 button:hover{
+    color: black;
+}
+.temp2 p{
+    margin-left: 5%;
+    cursor: pointer;
+}
+.temp2:hover{
+    background-color: rgba(0,0,0,0.9);
+}
